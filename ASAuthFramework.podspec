@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'anekk' => 'anekk85@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ASAuthFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anekk/ASAuthFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
