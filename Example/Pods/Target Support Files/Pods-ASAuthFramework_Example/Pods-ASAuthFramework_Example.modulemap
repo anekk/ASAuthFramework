@@ -1,0 +1,6 @@
+framework module Pods_ASAuthFramework_Example {
+  umbrella header "Pods-ASAuthFramework_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

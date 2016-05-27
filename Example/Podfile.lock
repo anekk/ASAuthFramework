@@ -1,0 +1,16 @@
+PODS:
+  - ASAuthFramework (0.1.0)
+
+DEPENDENCIES:
+  - ASAuthFramework (from `../`)
+
+EXTERNAL SOURCES:
+  ASAuthFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASAuthFramework: 389da4aa4510e778ed8d04b8691ab5cc9eaa5d85
+
+PODFILE CHECKSUM: aba49fbd087f20fe32f674eca8e2d51b2652547a
+
+COCOAPODS: 1.0.0
