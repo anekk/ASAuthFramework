@@ -1,5 +1,5 @@
 PODS:
-  - ASAuthFramework (0.1.0):
+  - ASAuthFramework (0.1.1):
     - Firebase/Auth
     - ReactiveCocoa
   - Firebase/Analytics (3.2.0):
@@ -45,7 +45,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASAuthFramework: 771e0fb75406626452e52aab691fa98c4ccc957e
+  ASAuthFramework: df9a5e6721888ffb489f6841b69e06e31b6418f4
   Firebase: 6d4012da1598732a2b43f16d8355eca90f94ed59
   FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
   FirebaseAuth: 94b851fc345ce98036dfedfdc2eddeaef8fa3b4c
