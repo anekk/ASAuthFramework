@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASAuthFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ASAuthFramework testing pod creation.'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = "Developer is able to create his/her own framework with pod"
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ASAuthFramework'
+  s.homepage         = 'https://github.com/anekk/ASAuthFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'anekk' => 'anekk85@gmail.com' }
@@ -36,5 +36,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Firebase/Auth'
+   s.dependency 'ReactiveCocoa'
+
+
 end

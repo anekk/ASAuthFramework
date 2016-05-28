@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ASAuthFramework_Example' do
-  pod 'ASAuthFramework', :path => '../'
+  pod 'ASAuthFramework'
 
   target 'ASAuthFramework_Tests' do
     inherit! :search_paths

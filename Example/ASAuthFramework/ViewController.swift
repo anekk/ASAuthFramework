@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import ASAuthFramework
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let auth = ASAuthFramework()
+        auth.startMe()
+        
+        print(FIRAuth.auth()?.currentUser)
     }
 
     override func didReceiveMemoryWarning() {
